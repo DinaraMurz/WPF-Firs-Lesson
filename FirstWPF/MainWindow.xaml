@@ -1,0 +1,26 @@
+﻿<Window x:Class="FirstWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}">
+    <Grid>
+        <materialDesign:Card Padding="24" Margin="106,66,105,0" Height="366"/>
+
+        <Label Margin="393,98,136,369" FontSize="16" Content=""/>
+        <Label Margin="369,156,160,311" FontSize="24" Content="Myrzabek Dinara" FontFamily="Nueva Std Cond"/>
+        <Label Margin="157,86,136,369" FontSize="24" Content="        Students card" FontFamily="Segoe UI Black"/>
+        <Label Margin="157,151,438,311" FontSize="24" Content="FullName:" FontFamily="Sitka Small" BorderBrush="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Label Margin="157,245,396,217" FontSize="24" Content="Phone-Number:" FontFamily="Sitka Small" BorderBrush="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Label Margin="157,198,438,264" FontSize="24" Content="Grade:" FontFamily="Sitka Small" BorderBrush="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Label Margin="369,156,160,311" FontSize="24" Content="Myrzabek Dinara" FontFamily="Nueva Std Cond"/>
+        <Label Margin="369,292,160,175" FontSize="24" Content="17.07.2003" FontFamily="Nueva Std Cond" FontWeight="Bold"/>
+        <Label Margin="369,247,160,220" FontSize="24" Content="8(705)172-XX-04" FontFamily="Nueva Std Cond" FontWeight="Bold"/>
+        <Label Margin="369,203,160,264" FontSize="24" Content="9 B" FontFamily="Nueva Std Cond" FontWeight="Bold"/>
+        <Label Margin="157,347,396,115" FontSize="24" Content="ID:" FontFamily="Sitka Small" BorderBrush="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Label Margin="157,287,396,175" FontSize="24" Content="BirthDay:" FontFamily="Sitka Small" BorderBrush="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Label Margin="369,334,160,133" FontSize="24" Content="657233497075" FontFamily="Nueva Std Cond" FontWeight="Bold"/>
+
+
+    </Grid>
+</Window>
